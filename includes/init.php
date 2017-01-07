@@ -123,7 +123,7 @@ if ($sel_config['open_memcached'] == 1) {
 }
 /* 载入系统参数 */
 $_CFG = load_config();
-/* 载入短信接口配置 */
+/**/
 require ROOT_PATH . 'data/sms_config.php';
 /* 载入语言文件 */
 require ROOT_PATH . 'languages/' . $_CFG['lang'] . '/common.php';
